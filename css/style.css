@@ -1,0 +1,50 @@
+body {
+  background-image: url(https://w.wallhaven.cc/full/r7/wallhaven-r75w21.jpg);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.player {
+	background-color: black;
+	border-radius: 25px;
+	padding: 50px;
+	width:500px;
+	margin:0 auto;
+	background: rgba(0,0,0,0.5);
+	-webkit-backdrop-filter: blur(10px);
+	backdrop-filter: blur(10px);
+	margin: 7px;
+}
+
+.center-screen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+
+h1 {
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	background-color: black;
+	padding: 10px;
+	padding-right: 30px;
+	padding-left: 30px;
+}
+
+h2 {
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	background-color: black;
+	padding: 10px;
+	padding-right: 30px;
+	padding-left: 30px;
+	background: rgba(0,0,0,0.5);
+	-webkit-backdrop-filter: blur(10px);
+	backdrop-filter: blur(10px);
+	margin: 7px;
+}
